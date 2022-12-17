@@ -1,0 +1,29 @@
+create a evm in anaconda
+line code into terminal
+# Create
+conda create -n <nameofemv> python=<pythonversion>
+
+# activate evm
+conda activate yourenvname
+
+# Install libraries
+conda install -n yourenvname [package]
+
+#Desactive the evm
+conda deactivate
+
+# Delect a evm
+conda env remove -n ENV_NAME
+
+
+################### PYTHON LONE ########
+# CREATE A VIRTUAL ENVAR 
+py -3 -m venv <name> --- cmd
+python -m venv <name venv> -- powershell
+
+# Active in the line commant
+<name-evm>\Scripts\activate
+
+# Desactive
+deactivate
+

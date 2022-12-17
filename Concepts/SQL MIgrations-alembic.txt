@@ -1,0 +1,8 @@
+sql migrations 
+
+- database migrations allow us to incrementally track changes to database schema
+and rollback changes changes to any point in time 
+
+- Alembic is a tool that allow us apply database migration (makes changes over fly)
+
+- Alembic can also automatically pull database models form Sqlalchemy and gerate the proper tables

@@ -1,0 +1,13 @@
+WHAT can ORMs do
+
+- Instead of manually defining tables in postgres, we can define our tables as 
+model(classes)
+
+- Queries can be made exclusively exclusively theoug python code. No SQL in necessary
+
+- Sqlalchemy is one of the most popular python ORMs
+
+- SQLalchemy don't kown as to talk with the database, it neeed a database driver
+to Prostgresql you use spycopg2 or other version.
+
+ 

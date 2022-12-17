@@ -1,0 +1,29 @@
+Alembit
+
+- this tools it's refer to as a database migration tool.
+
+- Database migrations allow us to incrementally track changes to database
+schema and rollback changes to any point in time
+
+- We will use a tool called alembic to make changes to our database
+
+- alembic can automatically pull database models form Sqlaachemy and
+generate the proper tables
+
+- access to all command from alembic
+alembic --help
+- Create a alembic folder 
+*in terminal 
+alembic init <foldername>
+
+- Revision crea a file to follow all the changes over the tables
+alembic revision -m "some task"
+
+- To applied the upgrade over the table
+alembic upgrade <id revision>
+
+- Rollback the last revision
+alembic downgrade <id the last revision> or -1
+
+# alemebic automatically detect the table or column missed
+alembic revision --autogenerate -m "auto-vote"

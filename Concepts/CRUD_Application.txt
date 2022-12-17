@@ -1,0 +1,12 @@
+CRUD APPLICATION WITH FASTAPI
+
+## Convetion
+
+CREATE ------------------> POST /posts   @app.post("/posts")
+
+READ ------------------> GET /posts/:id  @app.get("/posts/{:id}") # The id makes referency over to a unique identify of a entry in a database
+READ ------------------> GET /posts      @app.get("/posts")
+
+UPDATE ------------------> PUT /posts/:id @app.put("/posts/{:id}") # if i used a put request i'd have to give a new title over a pre-existing content
+
+DELETE ------------------> DELETE /posts/:id  @app.delete("/posts/{:id}")

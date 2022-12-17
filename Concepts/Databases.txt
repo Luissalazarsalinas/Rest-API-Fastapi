@@ -1,0 +1,30 @@
+- A table  represents a subject or event in an application
+- All tables has something type of relationship 
+
+- Databases have datatypes just any programming language
+
+# Data type        postgres               python
+
+numeric           int, decimal,precision  int, float
+
+text              Varchar, text           string
+
+bool             boolean                  boolean
+
+   
+sequence         array                    list
+
+
+- Primary Key
++ is a column or group od columns that uniquely identifies each row in a table
++ the primary key does not have to be the ID column always. it's up to you to decide
+which column uniquely defines each record.
+
+- Unique constraints 
++ A UNIQUE contraint can be applied to any column to make sure every record has a unique value
+for tha column
+
+- Null Constraints
++ By default, when adding a new entry to a database, any column can be left blank.
+hen a column is left blank, it has a null value
++ NOT NULL can be constraint can be added to the column to ensure that the column is never left blank

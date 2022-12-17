@@ -1,0 +1,12 @@
+CORS - api securiy
+
+- Cross Origin Resources Sharing (CORS) allows you to make requests form a web browser
+on one domain to server on a different domain
+
+-corsd refers to the situations when a frontend running in a browser has JavaScript code that 
+communicates with a backend, and the backend is in a different "origin" than the frontend.
+
+- By defualt our API will only web browsers running on the same 
+domain as our server to make requests to it.
+
+- middleware is a funtion that runs before the requests

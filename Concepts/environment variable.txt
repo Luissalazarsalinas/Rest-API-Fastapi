@@ -1,0 +1,7 @@
+Environment variable 
+
+- it's a variable that you configure on the computer, in this sense 
+any aplication that's running on the computer will be to access it 
+
+- Acceses to a Environment variable from the terminal 
+echo %Path

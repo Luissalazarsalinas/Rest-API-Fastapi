@@ -1,0 +1,4 @@
+- in more complicated enviroment you not have way to nativlay do that in the browser
+without generating or building out a complete full front-end application
+
+- To test your api you can donwload postman

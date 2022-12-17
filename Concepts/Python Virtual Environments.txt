@@ -1,0 +1,12 @@
+- Whit the viratual environments i can work differents project with the different
+version of one library or framework
+
+-------------EXAMPLE--------------
+PROJECT1                           PROJECT2
+   |                                  |
+   |                                  |
+ venv-1                             venv-2
+   |                                  |
+   |                                  |
+Fastapi v1.2.1                    Fastapi v2.2.1            
+  

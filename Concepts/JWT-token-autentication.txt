@@ -1,0 +1,9 @@
+is all related with user logging
+1. first we are going to verify if credentials are valid right
+2. Then the respond form the API is a Token
+3. the client send back the token to the api and it verify if the token is valid 
+
+# The token is dive in three part
+1. Header - Algorithm & ticket type
+2. Pyload - data
+3. verify signature - this determined if the token is valid or not 
